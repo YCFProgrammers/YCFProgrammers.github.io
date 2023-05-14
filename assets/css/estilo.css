@@ -249,12 +249,84 @@ html{
     position: relative;
     margin-bottom: 30px;
 }
-.skills .skill .progreso{
+.skills .skill .progreso-1{
     background-color: #1CB698;
     position: absolute;
     top: 0;
     left: 0;
     height: 8px;
+    width: 300px;
+}
+.skills .skill .progreso-2{
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    width: 340px;
+}
+.skills .skill .progreso-3{
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    width: 370px;
+}
+.skills .skill .progreso-4{
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    width: 315px;
+}
+.skills .skill .progreso-5{
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    width: 210px;
+}
+.skills .skill .barra-skill .progreso-6{
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    width: 255px;
+}
+.skills .skill .barra-skill .progreso-8{
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    width: 390px;
+}.skills .skill .barra-skill .progreso-9{
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    width: 245px;
+}
+.skills .skill .barra-skill .progreso-7{
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    width: 300px;
+}
+.skills .skill .barra-skill .progreso-10{
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    width: 370px;
 }
 .skills .skill .barra-skill span{
     position: absolute;
@@ -590,7 +662,7 @@ html{
     top: 40%;
     background-color: #252A2E;
     padding: 20px;
-    max-swidth: 350px;
+    max-width: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
