@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="assets/css/style1.css">
-    
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
     <title>Login</title>
 </head>
 <body>
@@ -14,9 +14,8 @@
           <div class="login-info-container">
             <h1 class="title">Log in with</h1>
             <div class="social-login">
-                <div class="social-login-element">
-                    <img src="/assets/images/google-icon.svg" alt="google-image">
-                    <span>Google</span>
+                <div class="social-login-element.">
+                    <div id="google-signin-button" data-client_id="316828881159-am9to51ntud4ed0re72rbc4k93ifo8s1.apps.googleusercontent.com" data-callback="onSignIn" data-auto_prompt="false"></div>
                 </div>
                 <div class="social-login-element">
                     <img src="/assets/images/facebook.svg" alt="facebook-image">
@@ -36,6 +35,7 @@
           </div>
             <img class="image-container" src="./assets/images/login.svg" alt="">
       </div>
-
+    <script src="./assets/js/google.js"></script>
+    
 </body>
 </html>
