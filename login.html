@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta
+      name="google-signin-client_id"
+      content="316828881159-7r5tjkhp7ploan12gpohaiobod2qcl5k.apps.googleusercontent.com"
+    />
     <link rel="stylesheet" href="assets/css/style1.css">
     <script src="https://accounts.google.com/gsi/client" async defer></script>
     <title>Login</title>
@@ -15,7 +18,8 @@
             <h1 class="title">Log in with</h1>
             <div class="social-login">
                 <div class="social-login-element.">
-                    <div id="google-signin-button" data-client_id="316828881159-am9to51ntud4ed0re72rbc4k93ifo8s1.apps.googleusercontent.com" data-callback="onSignIn" data-auto_prompt="false"></div>
+
+
                 </div>
                 <div class="social-login-element">
                     <img src="/assets/images/facebook.svg" alt="facebook-image">
@@ -35,6 +39,8 @@
           </div>
             <img class="image-container" src="./assets/images/login.svg" alt="">
       </div>
+      <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <script src="./assets/js/google.js"></script>
     
     
